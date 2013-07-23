@@ -11,7 +11,7 @@ Author
 
 Requirements
 ------------
-*  python v2.7
+*  python 2.7
 *  pip 1.3
 *  virtualenv 1.9
 
@@ -26,6 +26,10 @@ All you have to do is to:
 *  move into PROJECT_DIR_NAME folder
 
     cd PROJECT_DIR_NAME/
+
+*  delete .git/ folder and license file
+
+    rm -rf .git/ LICENSE
 
 *  rename tornado_start folder by YOUR_APPLICATION_NAME
 
@@ -68,7 +72,17 @@ you can :
 
     alias cdYOUR_APPLICATION_NAME='. ~/workspace/YOUR_APPLICATION_NAME/'
 
+*  add some LICENSE file
+*  init git repository
+
+    git init .
+
+
 License
 -------
 Tornado-start is under MIT License.
-See LICENSE for more information
+See LICENSE file for more information
+
+Version
+-------
+1.0.0
