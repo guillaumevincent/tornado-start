@@ -3,7 +3,7 @@ Tornado-start
 
 Introduction
 ------------
-Tornado_start is a template for building a Tornado web application in 5 minutes.
+Tornado-start is a template for building a Tornado web application in 5 minutes.
 
 Author
 ------
@@ -27,7 +27,7 @@ All you have to do is to:
 
     __cd YOUR_APPLICATION_NAME/__
 
-*  rename tornado-start folder by YOUR_APPLICATION_NAME
+*  rename YOUR_APPLICATION_NAME folder by YOUR_APPLICATION_NAME
 
     __mv tornado-start/ YOUR_APPLICATION_NAME/__
 
