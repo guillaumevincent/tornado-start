@@ -3,11 +3,11 @@ import tornado.web
 import tornado.ioloop
 import tornado.httpserver
 import settings as config
-from YOUR_APPLICATION_NAME.handlers import Index
+from tornado_start.handlers import Index
 
 
 class Application(tornado.web.Application):
-    """Tornado web class. Create all the routes used by YOUR_APPLICATION_NAME"""
+    """Tornado web class. Create all the routes used by tornado_start"""
 
     def __init__(self):
         handlers = [
