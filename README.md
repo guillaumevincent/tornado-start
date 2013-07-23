@@ -55,8 +55,11 @@ Add some test_xxx.py files in test folder and run tests with runtests.py
 Go further
 ----------
 you can :
+
 *  add some python libraries you use in requirements.txt
 *  configure your deploy/fabfile.py file for deployment in production
 *  add some alias in your .profile:
+
     alias venvYOUR_APPLICATION_NAME='. ~/.env/YOUR_APPLICATION_NAME/bin/activate'
+
     alias cdYOUR_APPLICATION_NAME='. ~/workspace/YOUR_APPLICATION_NAME/'
