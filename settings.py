@@ -4,7 +4,7 @@ import base64
 import logging.config
 from config.config import Config
 
-APPLICATION_NAME = '$YOUR_APPLICATION_NAME'
+APPLICATION_NAME = 'YOUR_APPLICATION_NAME'
 
 PROJECT_DIR = os.path.dirname(__file__)
 TEMPLATE_DIR = os.path.join(PROJECT_DIR, APPLICATION_NAME, 'templates')
