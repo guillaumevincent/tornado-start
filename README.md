@@ -34,6 +34,7 @@ All you have to do is to:
 *  rename APPLICATION_NAME = 'YOUR_APPLICATION_NAME' in settings.py
 
 *  rename import in runserver.py
+
     __from tornado_start.handlers import Index__ into __from YOUR_APPLICATION_NAME.handlers import Index__
 
 Make a virtualenv
