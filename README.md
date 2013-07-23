@@ -16,16 +16,25 @@ Start
 -----
 All you have to do is to:
 
-*  clone this repository (git clone https://github.com/guillaumevincent/tornado-start.git **$YOUR_APPLICATION_NAME**)
-*  move into **$YOUR_APPLICATION_NAME** folder (cd **$YOUR_APPLICATION_NAME**/)
-*  rename **tornado-start** folder by **$YOUR_APPLICATION_NAME** (mv tornado-start/ **$YOUR_APPLICATION_NAME**/)
-*  rename APPLICATION_NAME = '**$YOUR_APPLICATION_NAME**' in settings.py
+*  clone this repository 
+
+__git clone https://github.com/guillaumevincent/tornado-start.git $YOUR_APPLICATION_NAME__
+
+*  move into $YOUR_APPLICATION_NAME folder 
+
+__cd $YOUR_APPLICATION_NAME/__
+
+*  rename tornado-start folder by $YOUR_APPLICATION_NAME 
+
+__mv tornado-start/ $YOUR_APPLICATION_NAME/__
+
+*  rename APPLICATION_NAME = '$YOUR_APPLICATION_NAME' in settings.py
 
 Make a virtualenv
 -----------------
 *  mkdir ~/.env/
-*  virtualenv ~/.env/**$YOUR_APPLICATION_NAME**/
-*  . ~/.env/**$YOUR_APPLICATION_NAME**/bin/activate
+*  virtualenv ~/.env/$YOUR_APPLICATION_NAME/
+*  . ~/.env/$YOUR_APPLICATION_NAME/bin/activate
 *  pip install tornado
 
 You are ready to go
